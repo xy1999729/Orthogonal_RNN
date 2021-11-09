@@ -4,7 +4,7 @@
 import numpy as np
 import theano as theano
 import theano.tensor as T
-import theano.tensor.shared_randomstreams
+# import theano.tensor.shared_randomstreams
 import theano.tensor.nlinalg
 from sgd import sgd_optimizer
 import sys
