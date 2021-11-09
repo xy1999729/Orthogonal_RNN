@@ -5,7 +5,7 @@ file_out='logs_3'  # Output log file
 
 
 act='leaky_relu'
-for task in 'pMNIST'	# Choose among the tasks ['MNIST','pMNIST','PTB','PTB_5','copying','copyingVariable']
+for task in 'MNIST'	# Choose among the tasks ['MNIST','pMNIST','PTB','PTB_5','copying','copyingVariable']
 do
     for seq_len in 784	# For MNIST set seq_len to 784 
     do
